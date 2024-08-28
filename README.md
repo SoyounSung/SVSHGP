@@ -17,10 +17,33 @@ The model is implemented based on [GPflow](https://github.com/GPflow/GPflow). To
 
 We have tested the model using GPflow 1.3.0.
 
+
+* Python 3.7.12 
+* numpy 1.19.5
+* Tensorflow 1.15.0
+* GPflow 1.3.0
+
+$ conda create -n <ENV_NAME> python==3.7.12 
+$ conda activate <ENV_NAME>
+$ conda uninstall numpy    # if numpy is already installed
+$ conda install numpy==1.19.5
+$ conda install tensorflow==1.15.0
+$ pip install gpflow==1.3.0
+
+
+after install gpflow copy the folder gpflow to the ~<ENV_NAME>/lib/python3.7/site-packages
+
+
+
 The illustration example is provided in
 
 ```
-demo_SVHGP_toy.ipynb
+demo_SVHGP_1D.ipynb
+demo_SVHGP_2D.ipynb
 ```
+
+<div style="text-align:center">
+<img src="https://github.com/0LYS0/SVSHGP/blob/master/result/result.gif">
+</div>
 
 
