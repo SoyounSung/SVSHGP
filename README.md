@@ -23,12 +23,14 @@ We have tested the model using GPflow 1.3.0.
 * Tensorflow 1.15.0
 * GPflow 1.3.0
 
-$ conda create -n <ENV_NAME> python==3.7.12 
+```shell
+$ conda create -n <ENV_NAME> python==3.7.12
 $ conda activate <ENV_NAME>
 $ conda uninstall numpy    # if numpy is already installed
 $ conda install numpy==1.19.5
 $ conda install tensorflow==1.15.0
 $ pip install gpflow==1.3.0
+```
 
 
 after install gpflow copy the folder gpflow to the ~<ENV_NAME>/lib/python3.7/site-packages
